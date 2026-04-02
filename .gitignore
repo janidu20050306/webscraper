@@ -1,0 +1,20 @@
+# output/ → don't commit scraped data to git (keep it local)
+output/
+
+# Log file
+scraper_log.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
